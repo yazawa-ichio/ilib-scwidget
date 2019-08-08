@@ -1,6 +1,7 @@
 ﻿#if DEBUG || ILIB_DEBUG_MENU
 namespace ILib.Debugs
 {
+	using Widgets;
 	public abstract class PageJumpContent<TContext> : Content<TContext, DebugPageItem> where TContext : class
 	{
 

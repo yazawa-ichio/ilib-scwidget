@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace ILib.Debugs.AutoRegisters
 {
+	using Widgets;
 	internal class InputContent : AutoRegisterContent<DebugInputAttribute, DebugInputFieldItem>
 	{
 		public static IContent Create(AutoRegisterTargetAttribute target, DebugInputAttribute attr, System.Type type, System.Type contextType)

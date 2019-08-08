@@ -7,7 +7,6 @@ using System.Linq;
 
 namespace ILib.Debugs
 {
-	
 	public class ScDebugMenu : MonoBehaviour
 	{
 		[SerializeField]
@@ -23,7 +22,7 @@ namespace ILib.Debugs
 
 		bool m_Initialized;
 		SkinIMGUIDrawer m_Drawer;
-		DebugScreen m_Root;
+		Widgets.DebugScreen m_Root;
 		bool m_Closed;
 		bool m_SetCategory;
 		bool m_SetPage;
@@ -58,7 +57,7 @@ namespace ILib.Debugs
 			if (m_Initialized) return;
 			m_Initialized = true;
 			m_Drawer = new SkinIMGUIDrawer(m_Skin);
-			m_Drawer.SetRootWidget(m_Root = new DebugScreen(this));
+			m_Drawer.SetRootWidget(m_Root = new Widgets.DebugScreen(this));
 		}
 
 		void Update()

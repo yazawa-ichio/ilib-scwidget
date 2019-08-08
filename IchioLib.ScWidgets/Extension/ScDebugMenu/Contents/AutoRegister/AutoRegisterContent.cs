@@ -3,6 +3,7 @@ using ILib.ScWidgets;
 
 namespace ILib.Debugs.AutoRegisters
 {
+	using Widgets;
 	internal abstract class AutoRegisterContent<TAttribute, UWidget> : IContent, IInternalContent where TAttribute : AutoRegisterAttribute where UWidget : IScWidget, new()
 	{
 		AutoRegisterTargetAttribute m_TragetAttr;

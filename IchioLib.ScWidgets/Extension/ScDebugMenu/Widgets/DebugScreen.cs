@@ -6,7 +6,7 @@ using ILib.ScWidgets;
 using System.Linq;
 using System;
 
-namespace ILib.Debugs
+namespace ILib.Debugs.Widgets
 {
 	internal class DebugScreen : ScWidget
 	{

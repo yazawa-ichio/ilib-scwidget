@@ -1,7 +1,7 @@
 ﻿#if DEBUG || ILIB_DEBUG_MENU
 namespace ILib.Debugs.AutoRegisters
 {
-
+	using Widgets;
 	internal class ToggleContent : AutoRegisterContent<DebugToggleAttribute, DebugToggleItem>
 	{
 		bool GetValue()

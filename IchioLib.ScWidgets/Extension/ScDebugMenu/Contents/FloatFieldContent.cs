@@ -1,6 +1,7 @@
 ﻿#if DEBUG || ILIB_DEBUG_MENU
 namespace ILib.Debugs
 {
+	using Widgets;
 	public abstract class FloatFieldContent<TContext> : Content<TContext, DebugFloatFieldItem> where TContext : class
 	{
 

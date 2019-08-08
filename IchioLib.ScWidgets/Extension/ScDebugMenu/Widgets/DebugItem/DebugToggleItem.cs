@@ -3,7 +3,7 @@ using ILib.ScWidgets;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ILib.Debugs
+namespace ILib.Debugs.Widgets
 {
 	public class DebugToggleItem : ScMinimumWidget
 	{

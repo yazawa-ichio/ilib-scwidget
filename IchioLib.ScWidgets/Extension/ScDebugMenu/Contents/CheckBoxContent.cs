@@ -2,6 +2,7 @@
 
 namespace ILib.Debugs
 {
+	using Widgets;
 	public abstract class CheckBoxContent<TContext> : Content<TContext, DebugCheckBoxItem> where TContext : class
 	{
 

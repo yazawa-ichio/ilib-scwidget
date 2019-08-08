@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace ILib.Debugs.AutoRegisters
 {
+	using Widgets;
 	internal class LabelContent : AutoRegisterContent<DebugLabelAttribute, DebugLabelItem>
 	{
 		protected override void Register(DebugLabelItem widget)

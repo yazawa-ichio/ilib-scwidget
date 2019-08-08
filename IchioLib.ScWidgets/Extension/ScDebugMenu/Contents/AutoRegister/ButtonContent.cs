@@ -1,6 +1,7 @@
 ﻿#if DEBUG || ILIB_DEBUG_MENU
 namespace ILib.Debugs.AutoRegisters
 {
+	using Widgets;
 	internal class ButtonContent : AutoRegisterContent<DebugButtonAttribute, DebugButtonItem>
 	{
 		protected virtual string ButtonText { get => "実行"; }

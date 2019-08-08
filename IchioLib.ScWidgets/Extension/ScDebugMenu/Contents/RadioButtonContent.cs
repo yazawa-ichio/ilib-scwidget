@@ -1,6 +1,7 @@
 ﻿#if DEBUG || ILIB_DEBUG_MENU
 namespace ILib.Debugs
 {
+	using Widgets;
 	public abstract class RadioButtonContent<TContext> : Content<TContext, DebugRadioButtonItem> where TContext : class
 	{
 		protected abstract string[] Items { get; }

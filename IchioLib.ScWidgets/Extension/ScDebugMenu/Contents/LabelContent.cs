@@ -1,6 +1,7 @@
 ﻿#if DEBUG || ILIB_DEBUG_MENU
 namespace ILib.Debugs
 {
+	using Widgets;
 	public abstract class LabelContent<TContext> : Content<TContext, DebugLabelItem> where TContext : class
 	{
 		protected abstract string Label { get; }

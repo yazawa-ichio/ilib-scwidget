@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 using ILib.ScWidgets;
 
-namespace ILib.Debugs
+namespace ILib.Debugs.Widgets
 {
 
 	public class DebugInputFieldItemBase : DebugItemBase

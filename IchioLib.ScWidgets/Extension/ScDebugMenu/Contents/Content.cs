@@ -219,7 +219,7 @@ namespace ILib.Debugs
 			List<IContent> contents = new List<IContent>();
 			foreach (var nextPage in GetNextPage(self.Category, page).Distinct())
 			{
-				widgets.Add(new DebugPageItem()
+				widgets.Add(new Widgets.DebugPageItem()
 				{
 					Label = System.IO.Path.GetFileNameWithoutExtension(nextPage),
 					OnTap = () => self.SetPage(nextPage),

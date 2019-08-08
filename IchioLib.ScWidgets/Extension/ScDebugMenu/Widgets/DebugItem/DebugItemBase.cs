@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using ILib.ScWidgets;
 
-namespace ILib.Debugs
+namespace ILib.Debugs.Widgets
 {
 	public abstract class DebugItemBase : ScMinimumWidget
 	{

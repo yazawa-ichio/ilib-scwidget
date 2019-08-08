@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace ILib.Debugs
 {
-
+	using Widgets;
 	public abstract class ToggleContent<TContext> : Content<TContext, DebugToggleItem> where TContext : class
 	{
 

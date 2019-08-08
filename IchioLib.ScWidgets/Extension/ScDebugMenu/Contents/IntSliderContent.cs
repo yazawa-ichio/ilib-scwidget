@@ -1,6 +1,7 @@
 ﻿#if DEBUG || ILIB_DEBUG_MENU
 namespace ILib.Debugs
 {
+	using Widgets;
 	public abstract class IntSliderContent<TContext> : Content<TContext, DebugIntSliderItem> where TContext : class
 	{
 

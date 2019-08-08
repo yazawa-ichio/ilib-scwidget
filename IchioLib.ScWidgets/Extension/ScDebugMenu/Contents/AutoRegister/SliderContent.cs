@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace ILib.Debugs.AutoRegisters
 {
-	
+	using Widgets;
 	internal class SliderContent : AutoRegisterContent<DebugSliderAttribute, DebugSliderItem>
 	{
 		public static IContent Create(AutoRegisterTargetAttribute target, DebugSliderAttribute attr, System.Type type, System.Type contextType)

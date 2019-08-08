@@ -4,7 +4,7 @@ using UnityEngine;
 using ILib.ScWidgets;
 using System.Linq;
 
-namespace ILib.Debugs
+namespace ILib.Debugs.Widgets
 {
 	public class DebugRadioButtonItem : ScMinimumWidget , IFixedHeight
 	{
