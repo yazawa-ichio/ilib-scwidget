@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4c634d8b969e4fc44af26d1bb2dd026c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Font: {instanceID: 0}
+  - Box: {fileID: 21300000, guid: 162d3b45cc58fca458455ac1e7595557, type: 3}
+  - Button: {fileID: 21300000, guid: c3046fd727f1ec64f9a7d0b672c237d0, type: 3}
+  - Circle: {fileID: 21300000, guid: 6511b9aa145174a4c8cf145005dcd01b, type: 3}
+  - Check: {fileID: 21300000, guid: 9ecc176f2ac4d4e42a789654b50a6896, type: 3}
+  - Line: {fileID: 21300000, guid: 2a8cfc669cea82645b83ed1cd75f717b, type: 3}
+  - Arrow: {fileID: 21300000, guid: 2c4c0468a81246146b869d82cdb515b3, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
