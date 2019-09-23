@@ -6,7 +6,6 @@ using System.Reflection;
 
 namespace ILib.Debugs.AutoRegisters
 {
-	using Widgets;
 
 	public abstract class AutoRegisterAttribute : Attribute
 	{

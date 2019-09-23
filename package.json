@@ -1,8 +1,8 @@
 {
   "name": "jp.yazawa-ichio.ilib-scwidgets",
   "displayName":  "ILib.ScWidgets",
-  "version": "0.0.2",
-  "unity": "2018.3",
+  "version": "0.0.3",
+  "unity": "2018.4",
   "description": "Unity Tool Scripting Widgets Package.",
   "keywords": [ ],
   "Author": "yazawa-ichio (yazawa922473@gmail.com)",
