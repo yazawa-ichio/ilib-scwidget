@@ -1,8 +1,8 @@
-# [ScDebugMene](https://github.com/yazawa-ichio/ilib-scwidget/IchioLib.ScWidgets/Extenstion/ScDebugMenu)
+# [ScDebugMene](https://github.com/yazawa-ichio/ilib-scwidgets/tree/master/IchioLib.ScWidgets/Extension/ScDebugMenu)
 
 ScWidget Extention Debug Menu
 
-リポジトリ https://github.com/yazawa-ichio/ilib-scwidget/IchioLib.ScWidgets/Extenstion/ScDebugMenu
+リポジトリ https://github.com/yazawa-ichio/ilib-scwidgets/tree/master/IchioLib.ScWidgets/Extension/ScDebugMenu
 
 ## 概要
 

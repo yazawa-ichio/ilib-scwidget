@@ -12,7 +12,7 @@ UIElementsがランタイムで動くのを待てないので作った。
 
 拡張実装として作ったデバッグメニューが、いい感じに出来たのでそちらのみドキュメントを追加します。
 
-### ScDebugMenu
+### [ScDebugMenu](debug-menu.md)
 
 [ドキュメント](debug-menu.md)
 
