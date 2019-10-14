@@ -5,7 +5,7 @@ namespace ILib.Debugs
 	public abstract class RadioButtonContent<TContext> : Content<TContext, DebugRadioButtonItem> where TContext : class
 	{
 		protected abstract string[] Items { get; }
-		protected virtual int Select => -1;
+		protected abstract int Select { get; }
 
 		protected sealed override void Register(DebugRadioButtonItem widget)
 		{

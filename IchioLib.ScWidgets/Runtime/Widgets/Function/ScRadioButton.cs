@@ -118,6 +118,7 @@ namespace ILib.ScWidgets
 			{
 				rootWidget.Register(this);
 				Root = rootWidget;
+				Root.Register(this);
 				return;
 			}
 			IRoot root = null;

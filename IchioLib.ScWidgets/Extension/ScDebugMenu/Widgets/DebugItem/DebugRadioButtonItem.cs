@@ -36,6 +36,7 @@ namespace ILib.Debugs.Widgets
 					Layout = new Layout { Size = new Vector2(36, 36), Anchor = LayoutAnchor.Left, Pos = new Vector2(8, 0) },
 					Root = root
 				};
+				root.Register(m_Button);
 				m_Label = new ScText()
 				{
 					Layout = new StretchLayout { Margin = new RectOffset(48, 16, 0, 0) },

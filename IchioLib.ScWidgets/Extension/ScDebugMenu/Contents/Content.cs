@@ -27,7 +27,7 @@ namespace ILib.Debugs
 		public ScDebugMenu Menu { get; private set; }
 		public TContext Context => Menu.Contexts.Get<TContext>();
 		public virtual int Priority => 0;
-		protected virtual string Path => typeof(TContext).Name;
+		protected virtual string Path { get => ""; }
 		protected virtual string Category { get => ""; }
 		protected virtual int CategoryPriority { get => 0; }
 
