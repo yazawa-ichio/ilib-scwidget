@@ -1,0 +1,4 @@
+- name: Top
+  href: index.md
+- name: ScDebugMenu
+  href: debug-menu.md

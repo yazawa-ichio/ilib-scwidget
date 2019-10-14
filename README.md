@@ -9,4 +9,6 @@ Unity用のツール用のウィジェット。
 
 とりあえずUMPで確認できるように開発中でも公開してます。
 
+## [ドキュメント](https://yazawa-ichio.github.io/ilib-unity-project/manual/ilib-scwidgets/index.html)
 
+## [APIリファレンス](https://yazawa-ichio.github.io/ilib-unity-project/api/index.html)
