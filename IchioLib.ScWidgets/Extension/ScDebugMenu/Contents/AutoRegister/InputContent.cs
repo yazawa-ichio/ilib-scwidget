@@ -33,7 +33,7 @@ namespace ILib.Debugs.AutoRegisters
 
 		string GetValue()
 		{
-			if(Attr.Property != null)
+			if (Attr.Property != null)
 			{
 				return Attr.Property.GetMethod.Invoke(Context, null) as string;
 			}

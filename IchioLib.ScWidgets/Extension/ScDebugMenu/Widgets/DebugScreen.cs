@@ -18,7 +18,7 @@ namespace ILib.Debugs.Widgets
 		ScText m_HeaderText;
 		Vector2 m_ScreenSize;
 		string m_Page;
-		
+
 
 		public float ContentsHeight
 		{
@@ -39,7 +39,7 @@ namespace ILib.Debugs.Widgets
 			});
 			Add(m_MainScroll = new PageStackScroll(contentsHeight)
 			{
-				Layout = new StretchLayout { Margin = new RectOffset(0,0, (int)(m_HeaderFooterHeight / 2f), (int)(m_HeaderFooterHeight / 2f)) },
+				Layout = new StretchLayout { Margin = new RectOffset(0, 0, (int)(m_HeaderFooterHeight / 2f), (int)(m_HeaderFooterHeight / 2f)) },
 			});
 			Add(CreateHeader());
 			Add(CreateFooter());

@@ -10,7 +10,7 @@ namespace ILib.ScWidgets
 		bool Interactable { get; }
 	}
 
-	public abstract class ScFunction : ScWidget , IFunction
+	public abstract class ScFunction : ScWidget, IFunction
 	{
 		bool m_Interactable = true;
 		public bool Interactable

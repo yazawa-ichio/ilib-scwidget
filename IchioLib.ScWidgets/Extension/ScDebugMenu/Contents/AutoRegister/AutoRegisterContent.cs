@@ -11,7 +11,7 @@ namespace ILib.Debugs.AutoRegisters
 		protected TAttribute Attr { get; private set; }
 
 		protected ScDebugMenu Menu { get; private set; }
-		
+
 		protected virtual string Label => Attr.Name;
 
 		protected object Context => Menu.Contexts.Get(ContextType);

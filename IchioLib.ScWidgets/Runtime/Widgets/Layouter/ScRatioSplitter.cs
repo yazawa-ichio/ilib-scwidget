@@ -9,7 +9,7 @@ namespace ILib.ScWidgets
 	{
 		public interface IEntry
 		{
-			int Weight { get; set; } 
+			int Weight { get; set; }
 		}
 
 		protected class Entry : IEntry
@@ -47,7 +47,7 @@ namespace ILib.ScWidgets
 			{
 				m_Children.Add(widget);
 			}
-			return ret; 
+			return ret;
 		}
 
 		public void Remove(IScWidget widget)

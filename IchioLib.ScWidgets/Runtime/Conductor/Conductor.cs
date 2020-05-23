@@ -12,7 +12,7 @@ namespace ILib.ScWidgets
 		void OnRemove();
 	}
 
-	public abstract class Conductor<T,UEntry> : ConductorBase<T> where T : Conductor<T, UEntry>
+	public abstract class Conductor<T, UEntry> : ConductorBase<T> where T : Conductor<T, UEntry>
 	{
 
 		public Conductor()
@@ -33,7 +33,7 @@ namespace ILib.ScWidgets
 			if (widget == null) return default;
 			m_Used.Add(widget);
 			UEntry entry;
-			if (m_Entry.TryGetValue(widget,out entry))
+			if (m_Entry.TryGetValue(widget, out entry))
 			{
 				return entry;
 			}

@@ -43,7 +43,7 @@ namespace ILib.Debugs.Widgets
 
 	public class DebugPageArrow : ScMinimumWidget
 	{
-		public bool Back{ get; set; }
+		public bool Back { get; set; }
 
 		class Handler : SkinIMGUIDrawer.IMGUIHandler<DebugPageArrow>
 		{

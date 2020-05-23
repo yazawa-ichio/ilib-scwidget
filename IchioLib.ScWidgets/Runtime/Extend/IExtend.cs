@@ -34,7 +34,7 @@ namespace ILib.ScWidgets
 		public static T GetOrAddExtend<T>(this IScWidget self) where T : IExtend, new()
 		{
 			var ret = self.GetExtend<T>();
-			if(ret == default) ret = self.AddExtend<T>();
+			if (ret == default) ret = self.AddExtend<T>();
 			return ret;
 		}
 

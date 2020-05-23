@@ -143,7 +143,7 @@ namespace ILib.Debugs.Widgets
 		protected override void OnChange(string val)
 		{
 			float input = 0;
-			if (!float.TryParse(val, out input)) 
+			if (!float.TryParse(val, out input))
 			{
 				m_InputField.Input = m_Slider.Value.ToString();
 			}

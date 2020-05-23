@@ -181,7 +181,7 @@ namespace ILib.Debugs
 			return GetCategoryImpl(self).OrderBy(x => x.Item2).Select(x => x.Item1).Distinct();
 		}
 
-		static IEnumerable<(string,int)> GetCategoryImpl(ScDebugMenu self)
+		static IEnumerable<(string, int)> GetCategoryImpl(ScDebugMenu self)
 		{
 			HashSet<System.Type> typeSet = new HashSet<System.Type>(self.Contexts.GetTypes());
 			foreach (var content in s_Contents)

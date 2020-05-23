@@ -8,7 +8,7 @@ namespace ILib.Debugs.AutoRegisters
 		{
 			if (Attr.Property != null)
 			{
-				return (bool)Attr.Property.GetMethod.Invoke(Context, null) ;
+				return (bool)Attr.Property.GetMethod.Invoke(Context, null);
 			}
 			if (Attr.Field != null)
 			{

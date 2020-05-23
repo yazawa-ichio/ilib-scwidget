@@ -11,7 +11,7 @@ namespace ILib.ScWidgets
 		Color GetColor();
 	}
 
-	public abstract class ScGraphic : ScWidget , IScGraphic
+	public abstract class ScGraphic : ScWidget, IScGraphic
 	{
 		public Color Color { get; set; } = new Color(1f, 1f, 1f, 1f);
 		public Color MaskColor { get; set; } = new Color(1f, 1f, 1f, 1f);

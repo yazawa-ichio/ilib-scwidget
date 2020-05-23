@@ -8,7 +8,7 @@ namespace ILib.ScWidgets
 		public Texture Texture
 		{
 			get => m_Texture;
-			set 
+			set
 			{
 				m_Texture = value;
 				SetDitry();

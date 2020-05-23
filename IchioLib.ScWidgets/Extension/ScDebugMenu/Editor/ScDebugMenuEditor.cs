@@ -29,7 +29,7 @@ namespace ILib.Debugs
 
 		void CreateSkinAsset()
 		{
-			var savePath = EditorUtility.SaveFilePanelInProject("スキンを新規作成", "IMGUIWidgetSkin", "asset","新しくデバッグメニュー用のスキンを作成します");
+			var savePath = EditorUtility.SaveFilePanelInProject("スキンを新規作成", "IMGUIWidgetSkin", "asset", "新しくデバッグメニュー用のスキンを作成します");
 			if (!string.IsNullOrEmpty(savePath))
 			{
 				var skin = ScriptableObject.CreateInstance<IMGUIWidgetSkin>();

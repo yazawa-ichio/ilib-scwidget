@@ -202,7 +202,7 @@ namespace ILib.ScWidgets
 				return rect;
 			}
 		}
-		
+
 	}
 
 }

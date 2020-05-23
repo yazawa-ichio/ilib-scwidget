@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace ILib.Debugs.Widgets
 {
-	public class DebugRadioButtonItem : ScMinimumWidget , IFixedHeight
+	public class DebugRadioButtonItem : ScMinimumWidget, IFixedHeight
 	{
 		class Entry : ScMinimumWidget
 		{

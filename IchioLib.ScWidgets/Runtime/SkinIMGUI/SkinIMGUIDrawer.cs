@@ -483,7 +483,8 @@ namespace ILib.ScWidgets
 					var ret = GUI.Toggle(rect, widget.Value, "", style);
 					if (ret != widget.Value)
 					{
-						context.Schedule(() => {
+						context.Schedule(() =>
+						{
 							widget.Value = ret;
 						});
 						GUI.FocusControl("");
@@ -500,7 +501,7 @@ namespace ILib.ScWidgets
 					rect.size -= new Vector2(4f, 4f);
 					style.fixedWidth = rect.width;
 					style.fixedHeight = rect.height;
-					style.Draw(rect, context.Skin.Check.texture,false,false,false,false);
+					style.Draw(rect, context.Skin.Check.texture, false, false, false, false);
 
 					var color = GUI.backgroundColor;
 					try
@@ -740,7 +741,7 @@ namespace ILib.ScWidgets
 				}
 				else
 				{
-					if(!widget.HideScrollBar) DrawScrollBar(context, widget, true);
+					if (!widget.HideScrollBar) DrawScrollBar(context, widget, true);
 					if (Event.current.type == EventType.Layout)
 					{
 						pos.x = Mathf.Clamp(pos.x, xMin, xMax);
@@ -783,7 +784,7 @@ namespace ILib.ScWidgets
 			{
 				if (widget.IsOutsideClip()) return;
 				var rect = widget.GetRect();
-				DrawProgress(context,widget, widget.Value, 0, 1f);
+				DrawProgress(context, widget, widget.Value, 0, 1f);
 			}
 		}
 

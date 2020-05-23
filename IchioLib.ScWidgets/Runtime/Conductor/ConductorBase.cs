@@ -6,7 +6,7 @@ using System.Linq;
 namespace ILib.ScWidgets
 {
 
-	public abstract class ConductorBase<TContext> 
+	public abstract class ConductorBase<TContext>
 	{
 		internal protected interface IHandler
 		{
@@ -137,7 +137,7 @@ namespace ILib.ScWidgets
 			}
 			finally
 			{
-				if(handler != null)
+				if (handler != null)
 				{
 					handler.Finish(Context, widget);
 				}
