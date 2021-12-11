@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using System.Collections.Generic;
 
 namespace ILib.ScWidgets
 {
@@ -34,7 +32,7 @@ namespace ILib.ScWidgets
 		public static T GetOrAddExtend<T>(this IScWidget self) where T : IExtend, new()
 		{
 			var ret = self.GetExtend<T>();
-			if (ret == default) ret = self.AddExtend<T>();
+			if (ret == null) ret = self.AddExtend<T>();
 			return ret;
 		}
 
@@ -43,7 +41,7 @@ namespace ILib.ScWidgets
 			var extends = self.Extends;
 			if (extends == null)
 			{
-				extends = new IExtend[] { extend };
+				self.Extends = new IExtend[] { extend };
 			}
 			else
 			{
